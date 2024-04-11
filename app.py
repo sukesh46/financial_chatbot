@@ -24,7 +24,7 @@ def give_agent(files):
     return agent
 
 
-os.environ["api_key"] == st.secrets["api_key"]
+os.environ["OPENAI_API_KEY"] = st.secrets["api_key"]
 
 
     # app config
